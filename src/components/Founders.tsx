@@ -1,18 +1,20 @@
 import React from 'react';
 import { SectionTitle } from './ui/SectionTitle';
+import omkar from "../assets/founders/omkar.jpg";
+import aakash from "../assets/founders/aakash.png";
 
 const founders = [
   {
     name: 'Aakash Amit Joshi',
-    role: 'Co-Founder & CTO',
-    image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80&w=400',
-    // bio: 'Former fintech executive with 10+ years of experience in digital banking.',
+    role: 'Co-Founder',
+    image: aakash,
+    bio: 'B.E Computer, Tech Enthusiast, Passionate about creating Solutions',
   },
   {
     name: 'Omkar Basarkar',
-    role: 'Co-Founder & CEO',
-    image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80&w=400',
-    // bio: 'Tech innovator with expertise in AI and blockchain technologies.',
+    role: 'Co-Founder',
+    image: omkar,
+    bio: 'B.M.S in Finance, Finance Enthusiast.',
   },
 ];
 
